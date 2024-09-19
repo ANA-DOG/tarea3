@@ -1,0 +1,70 @@
+.contenedor
+{
+    background-color: rgb(160, 118, 199);
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header    header    header"
+                         "nav       nav       nav"
+                         "section   sectio   ads"
+                         "foot      foot      foot"
+                         "rrss      rrs      rss";
+}
+.contenedor .header
+{
+    background-color: yellow;
+    grid-column: header;
+
+}
+.contenedor .nav
+{
+    background-color: aqua;
+    grid-column: nav;
+}
+.contenedor .section
+{
+    background-color: red;
+    grid-column: section;
+    
+}
+.contenedor .sectio
+{
+    background-color: red;
+    grid-column: sectio;
+    
+}
+.contenedor .ads
+{
+    background-color: orange;
+    grid-column: ads;
+}
+.pou{
+    background-color:white;
+    position: absolute;
+    height: 100px; width: 160px;
+    left: 850px;
+}
+.contenedor .foot
+{
+    background-color: chocolate;
+    grid-column: foot;
+}
+.contenedor .rrss
+{
+    background-color: cyan;
+    grid-column: rrss;
+}
+.contenedor .rrs
+{
+    background-color: cyan;
+    grid-column: rrs;
+}
+.contenedor .rss
+{
+    background-color: cyan;
+    grid-column: rss;
+}
